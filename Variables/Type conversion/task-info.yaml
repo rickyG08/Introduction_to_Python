@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 113
-    length: 31
+    length: 17
     placeholder_text: Convert float_number to integer
     initial_state:
       length: 31
       offset: 113
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: int(float_number)
   text: |
     number = 9
@@ -38,5 +38,8 @@ files:
         run_common_tests()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 16:22:50 UTC
 record: -1

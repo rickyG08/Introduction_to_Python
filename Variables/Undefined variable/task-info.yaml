@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 19
-    length: 0
+    length: 14
     placeholder_text: other variable
     initial_state:
       length: 14
       offset: 19
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: other_variable
   text: |
     variable = 1
@@ -42,8 +42,8 @@ files:
         test_answer_placeholders_text_deleted(error_text)
         test_is_identifier()
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Use undefined variable
-  time: Tue, 16 Feb 2021 16:17:23 UTC
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 16:18:48 UTC
 record: -1

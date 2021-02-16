@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 112
-    length: 17
+    length: 18
     placeholder_text: float_number type
     initial_state:
       length: 17
       offset: 112
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: type(float_number)
   text: |
     ## Variable types
@@ -39,5 +39,8 @@ files:
         run_common_tests()
         test_type_used()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 16:21:27 UTC
 record: -1

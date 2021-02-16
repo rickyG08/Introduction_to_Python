@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 188
-    length: 8
+    length: 2
     placeholder_text: operator
     initial_state:
       length: 8
       offset: 188
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '>'
   text: |
     one = 1
@@ -49,5 +49,8 @@ files:
         test_value()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 16:38:45 UTC
 record: -1

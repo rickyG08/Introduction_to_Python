@@ -3,15 +3,15 @@ files:
 - name: slicing.py
   visible: true
   placeholders:
-  - offset: 167
-    length: 9
+  - offset: 166
+    length: 17
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 167
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: monty_python[6:]
   text: |
     monty_python = "Monty Python"
@@ -47,5 +47,8 @@ files:
         test_value()
         test_monty_python()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 18:00:59 UTC
 record: -1

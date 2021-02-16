@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 105
-    length: 4
+    length: 11
     placeholder_text: text
     initial_state:
       length: 4
       offset: 105
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: The name of this ice-cream is "Sweet\'n\'Tasty"
   text: |
     dont_worry = "Don't worry about apostrophes"
@@ -53,5 +53,8 @@ files:
         test_output()
         test_value()
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Sorry, the wrong string is printed
+  time: Tue, 16 Feb 2021 18:59:17 UTC
 record: -1

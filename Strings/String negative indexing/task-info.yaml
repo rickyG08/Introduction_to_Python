@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 58
-    length: 9
+    length: 15
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 58
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: long_string[-1]
   text: |
     long_string = "This is a very long string!"
@@ -46,5 +46,8 @@ files:
         test_value()
 
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 17:04:00 UTC
 record: -1

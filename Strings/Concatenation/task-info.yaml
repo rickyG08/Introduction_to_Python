@@ -3,15 +3,15 @@ files:
 - name: concatenation.py
   visible: true
   placeholders:
-  - offset: 47
-    length: 9
+  - offset: 33
+    length: 97
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 47
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: hello + ' ' + world
   text: |
     hello = "Hello"
@@ -55,5 +55,8 @@ files:
         test_concat_used()
 
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 16:49:30 UTC
 record: -1

@@ -4,24 +4,24 @@ files:
   visible: true
   placeholders:
   - offset: 45
-    length: 22
+    length: 10
     placeholder_text: divide 'number' by two
     initial_state:
       length: 22
       offset: 45
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: number / 2
-  - offset: 81
-    length: 23
+  - offset: 57
+    length: 22
     placeholder_text: calculate the remainder
     initial_state:
       length: 23
       offset: 81
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: number % 2
   text: |
     number = 9.0        # float number
@@ -75,5 +75,8 @@ files:
         test_division()
         test_remainder()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Feb 2021 16:32:48 UTC
 record: -1
