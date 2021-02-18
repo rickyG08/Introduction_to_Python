@@ -3,25 +3,25 @@ files:
 - name: else_elif.py
   visible: true
   placeholders:
-  - offset: 352
-    length: 29
+  - offset: 351
+    length: 20
     placeholder_text: check if name equal to "John"
     initial_state:
       length: 29
       offset: 352
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'if name == "John":'
-  - offset: 398
-    length: 9
+  - offset: 387
+    length: 5
     placeholder_text: otherwise
     initial_state:
       length: 9
       offset: 398
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'else:'
   text: |
     x = 28
@@ -80,5 +80,8 @@ files:
         test_window2()
         test_columns()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 18 Feb 2021 00:27:20 UTC
 record: -1

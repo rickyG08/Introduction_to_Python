@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 312
-    length: 12
+    length: 18
     placeholder_text: Jane's phone
     initial_state:
       length: 12
       offset: 312
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: phone_book ["Jane"]
   text: |
     # create new dictionary.
@@ -44,5 +44,8 @@ files:
         run_common_tests("Use indexing e.g. dct[key]")
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 17 Feb 2021 23:16:30 UTC
 record: -1
