@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 30
-    length: 28
+    length: 2
     placeholder_text: assign any value to variable
     initial_state:
       length: 28
       offset: 30
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 4
   text: |
     class MyClass:
@@ -30,5 +30,8 @@ files:
     if __name__ == '__main__':
         run_common_tests()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 22 Feb 2021 19:56:55 UTC
 record: -1

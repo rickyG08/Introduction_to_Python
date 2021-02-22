@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 256
-    length: 58
+    length: 10
     placeholder_text: define a function named 'fun' to replace three lines above
     initial_state:
       length: 58
       offset: 256
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'def fun():'
   text: |
     def hello_world():  # function named my_function
@@ -66,5 +66,8 @@ files:
         test_column()
         test_window1()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 22 Feb 2021 18:12:23 UTC
 record: -1

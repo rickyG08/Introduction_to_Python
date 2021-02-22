@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 159
-    length: 71
+    length: 14
     placeholder_text: define a function named 'square' that prints square of passed
       parameter
     initial_state:
       length: 71
       offset: 159
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'def square(x):'
   text: |
     def foo(x):                 # x is a function parameter
@@ -55,5 +55,8 @@ files:
         test_column()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 22 Feb 2021 19:16:33 UTC
 record: -1

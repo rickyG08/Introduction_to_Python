@@ -39,8 +39,8 @@ files:
       length: 33
       offset: 169
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: from my_module import hello_world
   text: |2
 
@@ -71,5 +71,8 @@ files:
         run_common_tests()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 22 Feb 2021 21:25:12 UTC
 record: -1

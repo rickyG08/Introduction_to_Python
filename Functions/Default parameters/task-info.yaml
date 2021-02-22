@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 158
-    length: 55
+    length: 34
     placeholder_text: add parameters for function, set default value for name
     initial_state:
       length: 55
       offset: 158
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: subject, name="John"
   text: |
     def multiply_by(a, b=2):
@@ -52,5 +52,8 @@ files:
         test_window()
         test_window_names()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 22 Feb 2021 19:50:05 UTC
 record: -1

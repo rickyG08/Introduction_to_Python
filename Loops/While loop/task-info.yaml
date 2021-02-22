@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 213
-    length: 30
+    length: 18
     placeholder_text: print all squares from 0 to 99
     initial_state:
       length: 30
       offset: 213
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'while square < 81:'
   text: |
     square = 1
@@ -96,5 +96,8 @@ files:
         test_column()
         test_output()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 22 Feb 2021 16:28:13 UTC
 record: -1

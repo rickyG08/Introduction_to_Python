@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 158
-    length: 59
+    length: 22
     placeholder_text: count how many characters are in the hello_world using loop
     initial_state:
       length: 59
       offset: 158
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'for ch in hello_world:'
   text: |
     hello_world = "Hello, World!"
@@ -52,5 +52,8 @@ files:
         test_window()
         test_value()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 18 Feb 2021 15:54:27 UTC
 record: -1
